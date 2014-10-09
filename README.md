@@ -1,4 +1,6 @@
-# Dstat
+# dstat
+
+dstat is a ruby gem that provides utilites for working with dstat data
 
 Given a dstat csv file, this will import the data, columnwise, into a Hash.
 
