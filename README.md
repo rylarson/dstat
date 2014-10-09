@@ -70,6 +70,20 @@ Or install it yourself as:
 
 ## Usage
 
+Dstat is a module, and you can include it to mix in it's functionality.
+
+```
+require 'dstat'
+include Dstat
+```
+
+Once you do this, you have access to all of the Dstat methods. The most useful of which is:
+
+```
+import_dstat_csv(file)
+```
+
+You can pass this a File or a String representing a path to a file, and it will return a colmnwise hash of keys to values
 
 ## Contributing
 
