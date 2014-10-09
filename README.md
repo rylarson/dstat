@@ -29,10 +29,12 @@ hash[:epoch] => [1121245, 1121246]
 hash[:memory_usage] => {:used => [12456, 12457], 
                         :buff => [12856, 12855], 
                         :cach => [20059, 20068], 
-                        :free => [2999095, 2996885]
-```            }
+                        :free => [2999095, 2996885]            
+                        }
+```
 
 Written another way:
+
 
 ```
 puts hash[:memory_usage][:used]
