@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "dstat"
   spec.version       = Dstat::VERSION
   spec.authors       = ["Ryan Larson"]
-  spec.email         = ["rlarson@tripwire.com"]
+  spec.email         = ["ryan.mango.larson@gmail.com"]
   spec.summary       = "Utilities for parsing dstat data from dstat csv files."
   spec.homepage      = ""
   spec.license       = "MIT"
